@@ -106,6 +106,10 @@
                                     <name>ninja.mode</name>
                                     <value>dev</value>
                                 </systemProperty>
+                                <systemProperty>
+                                    <name>ninja.diagnostics</name>
+                                    <value>true</value>
+                                </systemProperty>
                             </systemProperties>
                         </configuration>
                         <executions>

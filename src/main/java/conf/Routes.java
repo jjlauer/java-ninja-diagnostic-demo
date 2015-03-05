@@ -12,6 +12,7 @@ public class Routes implements ApplicationRoutes {
         router.GET().route("/").with(Application.class, "index");
         router.GET().route("/template_error").with(Application.class, "template_error");
         router.GET().route("/bad_template").with(Application.class, "bad_template");
+        router.GET().route("/missing_template").with(Application.class, "missing_template");
         router.GET().route("/app_error").with(Application.class, "app_error");
         router.GET().route("/dependency_error").with(Application.class, "dependency_error");
         router.GET().route("/bad_request").with(Application.class, "bad_request");
