@@ -42,6 +42,10 @@ public class Application {
         return Results.ok();
     }
     
+    public Result missing_template() {
+        return Results.ok();
+    }
+    
     public Result app_error() {
         //Test.Internal a = new Test.Internal();
         //return Results.ok();
